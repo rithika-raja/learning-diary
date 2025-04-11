@@ -55,23 +55,28 @@
     background-color: var(--tertiaryColor);
     width: 100%;
     height: 100%;
-    border: var(--lightColor) solid 0.5rem;
-    padding: 2rem;
+    border: var(--lightColor) solid 1rem;
+    border-radius: 1.5rem;
+    padding: 1rem 1rem;
     /* Peach Puff Tint */
 }
 
 .cardHeader {
-    /* background-color: #dda0dd; */
+    background-color: #ffffff;
+    /* background-image: url(./assests/images/gradient.jpg); */
     width: 100%;
     height: 100%;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
+    border-radius: 1.5rem;
+    padding: 5rem 1rem;
     margin-bottom: 1rem;
-    /* Plum */
 }
 
 .cardHeader h2 {
     /* background-color: #98fb98; */
+    width: 100%;
+    height: 100%;
     /* font-family: var(--ffprimary);
     color: var(--secondaryColor);
     font-size: 5rem;
@@ -81,33 +86,12 @@
     /* Pale Green */
 }
 
-.cardHeader hr {
-    background-color:var(--darkColor);
-    width: 30%;
-    height: 0.2rem;
-    border: none;
-    margin-bottom: 1rem;
-    /* border: none; */
-    /* Burly Wood */
-}
-
-.cardHeader p {
-    /* background-color: #afeeee; */
-    /* Pale Turquoise */
-    /* font-family: var(--ffsecondary);
-    color: var(--darkColor);
-    font-size: 2.5rem;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.1rem; */
-    /* margin-bottom: 1rem; */
-}
-
 .cardMain {
     /* background-color: #f08080; */
     /* Light Coral */
     width: 100%;
     height: 100%;
+    gap: 2rem;
 }
 
 .cardMain p {
@@ -115,9 +99,19 @@
     /* Pale Turquoise */
     /* font-family: var(--ffsecondary); */
     /* color: var(--darkColor); */
+    width: 100%;
+    height: 100%;
     font-size: 2rem;
+    /* display: flex;
+    align-items: start;
+    justify-content: start; */
     /* font-weight: 500; */
     /* line-height: 1.5; */
     /* letter-spacing: 0.1rem; */
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
+}
+
+.cardMain button{
+    /* background-color: #c799f3; */
+    /* margin-bottom: 1rem; */
 }
